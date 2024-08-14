@@ -27,7 +27,7 @@ env:
   DATABRICKS_SP_CLIENT_SECRET: ${{ secrets.DATABRICKS_SP_CLIENT_SECRET }}
 
   ROOT_DIR: ${{ github.workspace }}
-  TF_SOURCE_REPO: jgarciaf106/security-analysis-tool-tf-resources
+  TF_SOURCE_REPO: JuanDiego18/security-analysis-tool-tf-resources
 
 jobs:
   deploy:
